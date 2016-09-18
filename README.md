@@ -27,6 +27,7 @@ it expired by mui.poppicker.js
 * config.endDate: Date
      - value: Date
      - description: picker end Date
+    
 ###LICENSE###
 This MUI date range picker plugin is under MIT LICENSE
 
