@@ -1,0 +1,26 @@
+{
+  "name": "mui-daterangepicker",
+  "version": "1.0.0",
+  "description": "mui date range picker",
+  "main": "index.js",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "mui",
+    "daterangepicker"
+  ],
+  "author": "Wa1k3r27",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-ruby-sass": "^2.1.0",
+    "gulp-typescript": "^2.13.6",
+    "typescript": "^1.8.10"
+  }
+}

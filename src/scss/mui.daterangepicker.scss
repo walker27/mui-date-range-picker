@@ -1,0 +1,108 @@
+.mui-drpicker {
+    position: fixed;
+    left: 0px;
+    width: 100%;
+    z-index: 999;
+    background-color: #eee;
+    border-top: solid 1px #ccc;
+    box-shadow: 0px -5px 7px 0px rgba(0, 0, 0, 0.1);
+    transition: .3s;
+    bottom: 0px;
+    transform: translateY(300px);
+    &.mui-active {
+        transform: translateY(0px);
+    }
+    &-container {
+        // position: relative;
+    }
+    &-header {
+        padding: 6px;
+        font-size: 14px;
+        color: #888;
+        .mui-btn {
+            font-size: 12px;
+            padding: 5px 10px;
+        }
+    }
+    &-btn {
+        &-cancel {
+            float: left;
+        }
+        &-ok {
+            float: right;
+        }
+    }
+    &-clear {
+        clear: both;
+        height: 0px;
+        line-height: 0px;
+        font-size: 0px;
+        overflow: hidden;
+    }
+    &-body {
+        position: relative;
+        width: 100%;
+        height: 200px;
+        border-top: solid 1px #ddd;
+        background-color: #ddd;
+        /*-webkit-perspective: 1200px;
+        perspective: 1200px;
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;*/
+    }
+    .mui-picker {
+        position: relative;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        border: none;
+        float: left;
+        background-color: transparent;
+        .mui-pciker-rule-ft {
+            border-top-color: transparent;
+            border-bottom-color: transparent;
+        }
+        .mui-pciker-list li{
+            // color: #888;
+            &.highlight{
+                // color: #222;
+            }
+        }
+    }
+    &-spliter {
+        &:after {
+            content: '---';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0%;
+            width: 100%;
+            height: 36px;
+            line-height: 36px;
+            margin: auto;
+            text-align: center;
+            color: #222;
+            // font-size: remOf(24);
+            // background-color: #fff;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-left: none;
+            border-right: none;
+            box-sizing: border-box;
+            z-index: 0;
+        }
+    }
+}
+
+.mui-android-5-1 {
+    .mui-drpicker {
+        bottom: -300px;
+        -webkit-transition-property: bottom;
+        -webkit-transform: none;
+        &.mui-active {
+            bottom: 0px;
+            -webkit-transition-property: bottom;
+            -webkit-transform: none;
+        }
+    }
+}
