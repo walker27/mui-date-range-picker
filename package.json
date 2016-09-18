@@ -15,7 +15,7 @@
     "daterangepicker"
   ],
   "author": "Wa1k3r27",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.1",
