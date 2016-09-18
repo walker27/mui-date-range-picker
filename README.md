@@ -4,9 +4,9 @@ v0.0.1
 
 Mui Date Range Picker is a [MUI](https://github.com/dcloudio/mui) plugin to select a date range.
 
-* requires MUI 2.4.0+ and [mui.picker.js](https://github.com/dcloudio/mui/blob/master/plugin/picker/js/mui.poppicker.js)
+* requires MUI 2.4.0+ and [mui.picker.js](https://github.com/dcloudio/mui/blob/master/plugin/picker/js/mui.picker.js)
 
-it expired by mui.poppicker.js
+it expired by [mui.poppicker.js](https://github.com/dcloudio/mui/blob/master/plugin/picker/js/mui.poppicker.js)
 
 ###CONFIG###
 * config.type: string 
